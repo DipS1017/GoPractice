@@ -6,7 +6,7 @@ import (
 	"strings"
 )
 
-func main(){
+func stdlibray(){
   greeting:="hello this is for testing the std library";
   fmt.Println(greeting);
   //contains function returns a boolean value
