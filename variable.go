@@ -1,6 +1,6 @@
 package main
 import "fmt"
-func main(){
+func variable(){
 var a string="hello this is a test for string"; // this is where the type is declared
 var b ="this is a text"; // this is where the type is inferred both works and the space aren't registered in a new line in print unless \n is used or println is used
   c:="this is also a text"// this is the shorthand way : is used to declare and assign this will only be used when declaring and not the 2nd time 
