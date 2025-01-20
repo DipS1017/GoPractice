@@ -47,7 +47,7 @@ func nameSaparator(name string)(string,string){
 
 
 
-func main(){
+func functions(){
   first,last:=nameSaparator("dipesh shrestha");
 
   //callign a function is also similar 

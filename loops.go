@@ -1,7 +1,7 @@
 package main
 import "fmt"
 
-func loops(){
+func main(){
   //very similar to js or c on looping 
 
   for x:=0;x<5;x++{
@@ -26,6 +26,24 @@ func loops(){
 
   for _,value:=range slice{
     fmt.Println(value);
+
+  }
+
+  //we can also loop over with maps as well
+
+  //lets first just do maps
+  menu:=map[string]float64{
+    "pie":5.99,
+    "cake":3.99,
+    "ice cream":2.99,
+    "milkshake":4.99,
+  }
+  fmt .Println(menu);
+  fmt.Println(menu["ice cream"]);
+  //lets now loop over the maps
+
+  for k,v:=range menu{
+    fmt.Printf("%v: $%v\n",k,v);
 
   }
 
