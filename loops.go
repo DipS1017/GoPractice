@@ -1,7 +1,7 @@
 package main
 import "fmt"
 
-func main(){
+func mains(){
   //very similar to js or c on looping 
 
   for x:=0;x<5;x++{
